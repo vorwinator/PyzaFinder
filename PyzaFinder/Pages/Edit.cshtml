@@ -1,5 +1,9 @@
 ﻿@page
 @model PyzaFinder.Pages.EditModel
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+@section Styles {
+    <link rel="stylesheet" href="~/css/Create.css" />
+}
 <br />
 <h2 class="text-info">Edit restaurant</h2>
 <br />
@@ -47,5 +51,5 @@
 </div>
 
 @{
-    <partial name="_ValidationSCriptsPartial" />
+                <partial name="_ValidationSCriptsPartial" />
 }
